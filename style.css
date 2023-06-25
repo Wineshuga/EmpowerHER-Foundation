@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+}
+
+.header-one,
+.header-two {
+    display: none;
+}
+
+.header-one {
+    background-color: #272a31;
+}
+
+.header-two > img {
+    width: 5rem;
+}
