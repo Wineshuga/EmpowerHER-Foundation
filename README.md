@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./assets/Color%20logo%20-%20no%20background.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/images/Color%20logo%20-%20no%20background.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>EmpowerHer Foundation</b></h3>
