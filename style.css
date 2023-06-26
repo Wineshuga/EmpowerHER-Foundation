@@ -109,7 +109,8 @@ header {
     border-color: #ec5242;
 }
 
-.main-program > h2 {
+.main-program > h2,
+.featured-speakers > h2 {
     text-align: center;
 }
 
@@ -140,6 +141,15 @@ header {
     width: 15rem;
     font-size: 18px;
     margin: auto;
+}
+
+.featured-speakers {
+    padding: 2rem 0;
+}
+
+.featured-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .featured-container > section {
@@ -189,6 +199,19 @@ header {
 .featured-text > hr {
     width: 2rem;
     margin: 0.5rem 0;
+}
+
+.more-btn {
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #f0f0f0;
+}
+
+#more-section {
+    flex-direction: column;
+    display: none;
 }
 
 @media (min-width: 600px) {
