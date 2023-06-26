@@ -98,6 +98,7 @@ header {
     max-width: 37rem;
     padding: 2rem;
     display: flex;
+    margin: auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -118,4 +119,22 @@ header {
 .older {
     background: url(../assets/images/2021.jpg) 0 70% no-repeat;
     background-size: cover;
+}
+
+.sponsors {
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    background-color: #272a31;
+}
+
+.sponsors > section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.sponsors img {
+    width: 8rem;
 }
