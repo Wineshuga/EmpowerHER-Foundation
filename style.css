@@ -92,6 +92,7 @@ header {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .main-container > section {
@@ -215,6 +216,11 @@ header {
 }
 
 @media (min-width: 600px) {
+    .hero-article {
+        width: 35.5rem;
+        margin: auto;
+    }
+
     .main-heading {
         width: 20%;
     }
@@ -229,6 +235,9 @@ header {
 
     .main-btn {
         width: 20rem;
-        margin: 0 calc(50vw - 20rem / 2);
+    }
+
+    .more-btn {
+        width: 33rem;
     }
 }
