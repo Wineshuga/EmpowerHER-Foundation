@@ -32,7 +32,8 @@ header {
     padding-top: 5rem;
 }
 
-.hero-article {
+.hero-article,
+.about-foundation {
     max-width: 37.5rem;
     margin: auto;
 }
@@ -75,4 +76,46 @@ header {
 .hero-article a {
     font-weight: 700;
     text-decoration: underline;
+}
+
+.pink-hr {
+    width: 2rem;
+    margin: 0.5rem auto 2rem;
+    border-color: #ec5242;
+}
+
+.about-foundation {
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-foundation > img {
+    padding-top: 1rem;
+    width: 10rem;
+}
+
+.past-summits {
+    max-width: 37rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.past-photo {
+    max-width: 25rem;
+    height: 15rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.recent {
+    background: url(../assets/images/2022.jpg) no-repeat;
+    background-size: cover;
+}
+
+.older {
+    background: url(../assets/images/2021.jpg) 0 70% no-repeat;
+    background-size: cover;
 }
