@@ -87,6 +87,13 @@ header {
     padding: 2rem 0;
 }
 
+.main-container {
+    max-width: 37.5rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-container > section {
     background-color: #3C3F46;
     margin: 1rem;
@@ -96,7 +103,7 @@ header {
     padding: 0.5rem 1rem;
 }
 
-.main-program > hr {
+.pink-hr {
     width: 2rem;
     margin: 0.5rem auto 2rem;
     border-color: #ec5242;
@@ -132,7 +139,56 @@ header {
 .main-btn {
     width: 15rem;
     font-size: 18px;
-    margin: 0 calc(50vw - 15rem / 2);
+    margin: auto;
+}
+
+.featured-container > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    max-width: 37.5rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.featured-img {
+    width: 20%;
+    height: 6rem;
+    overflow: hidden;
+}
+
+.featured-img > img {
+    width: 100%;
+}
+
+.alexa,
+.adeoyee {
+    width: 150% !important;
+    margin-left: -1.8rem;
+}
+
+.featured-text {
+    width: 75%;
+}
+
+.featured-text p,
+.featured-text h3 {
+    color: #272a31;
+}
+
+.featured-text > p {
+    font-size: 14px;
+}
+
+.featured-text > p:first-of-type {
+    color: #ec5242;
+    font-style: italic;
+}
+
+.featured-text > hr {
+    width: 2rem;
+    margin: 0.5rem 0;
 }
 
 @media (min-width: 600px) {
