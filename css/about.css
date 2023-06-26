@@ -138,3 +138,19 @@ header {
 .sponsors img {
     width: 8rem;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer > img {
+    width: 5rem;
+}
