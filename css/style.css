@@ -144,8 +144,7 @@ header {
 }
 
 .featured-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 
 .featured-container > section {
@@ -154,8 +153,12 @@ header {
     justify-content: space-between;
     margin-bottom: 1rem;
     max-width: 37.5rem;
-    padding: 1rem;
     margin: auto;
+    padding: 1rem;
+
+}
+.featured-container > section:nth-child(n+3) {
+    display: none;
 }
 
 .featured-img {
@@ -203,11 +206,6 @@ header {
     width: 90%;
     margin: auto;
     border: 1px solid #f0f0f0;
-}
-
-#more-section {
-    flex-direction: column;
-    display: none;
 }
 
 @media (min-width: 600px) {
@@ -357,6 +355,18 @@ header {
         margin-bottom: 3rem;
         background-color: transparent;
         border-bottom: 1px solid #ffffff;
+    }
+    
+    .featured-container {
+        grid-template-columns: auto auto;
+    }
+
+    .more-btn {
+        display: none;
+    }
+
+    .featured-container > section:nth-child(n+3) {
+        display: flex;
     }    
 }
 
