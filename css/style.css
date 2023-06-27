@@ -83,7 +83,8 @@ header {
 
 .main-container > section {
     background-color: #3C3F46;
-    margin: 1rem 0;
+    margin: 0.3rem 0;
+    height: 8rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -136,7 +137,7 @@ header {
     color: #ffffff;
     width: 15rem;
     font-size: 18px;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .featured-speakers {
@@ -370,6 +371,7 @@ footer > img {
     .main-container > section {
         display: block;
         width: 13rem;
+        height: auto;
         text-align: center;
         padding: 1rem 0.5rem;
     }
