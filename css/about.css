@@ -96,7 +96,7 @@ header {
 
 .past-summits {
     max-width: 37rem;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -105,24 +105,39 @@ header {
 
 .past-summits > section {
     margin: auto;
-    width: 80%;
 }
 
 .past-photo {
-    max-width: 25rem;
-    height: 15rem;
+    max-width: 50rem;
     margin-top: 2rem;
+    min-height: 15rem;
     width: 100%;
+    position: relative;
 }
 
-.recent {
-    background: url(../assets/images/2022.jpg) no-repeat;
-    background-size: cover;
+.past-photo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ec5242;
+    opacity: 0.6;
 }
 
-.older {
-    background: url(../assets/images/2021.jpg) 0 70% no-repeat;
-    background-size: cover;
+.past-photo > h3 {
+    position: absolute;
+    right: 40%;
+    bottom: 40%;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.past-photo > img {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
 }
 
 .sponsors {
@@ -279,7 +294,7 @@ footer > img {
     } 
 
     .past-summits {
-        max-width: 56rem;
+        max-width: 70rem;
         margin-bottom: 5rem;
     }
     
@@ -287,6 +302,12 @@ footer > img {
         display: flex;
         justify-content: space-between;
         gap: 1rem;
+        width: 100%;
+    }
+
+    .past-photo > img {
+        object-fit: cover;
+        height: 20rem;
     }
 
     .sponsors {
