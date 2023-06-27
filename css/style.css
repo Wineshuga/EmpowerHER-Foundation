@@ -38,7 +38,7 @@ header {
     bottom: 0;
     left: 0;
     background: url(../assets/images/hero-img.jpg) no-repeat;
-    background-size: 100% 40vh;
+    background-size: cover;
     opacity: 0.2;
 }
 
@@ -304,5 +304,42 @@ header {
     .header-two-container a {
         color: #3C3F46;
         font-weight: 600;
+    }
+
+    .hero-section {
+        padding-left: 8rem;
+    }
+
+    .hero-article {
+        margin: 0;
+    }
+
+    .hero-article > h2 {
+        font-size: 45px;
+    }
+}
+
+@media (min-width:992px) { 
+    .hero-article {
+        width: 45rem;
+        padding-top: 8rem;
+    }
+
+    .hero-article >h1 {
+        font-size: 24px;
+    }
+
+    .hero-article > p:nth-child(2n) {
+        font-size: 32px;
+    }
+
+    .hero-article > p:nth-of-type(3) {
+        font-size: 20px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .hero-section {
+        padding-left: 12rem;
     }
 }
