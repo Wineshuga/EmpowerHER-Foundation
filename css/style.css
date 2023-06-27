@@ -386,7 +386,12 @@ header {
 
     .hero-article > p:nth-of-type(3) {
         font-size: 20px;
-    }    
+    }
+
+    .featured-container {
+        max-width: 70rem;
+        margin: auto;
+    }
 }
 
 @media (min-width: 1200px) {
