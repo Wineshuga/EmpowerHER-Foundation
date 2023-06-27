@@ -103,6 +103,11 @@ header {
     text-align: center;
 }
 
+.past-summits > section {
+    margin: auto;
+    width: 80%;
+}
+
 .past-photo {
     max-width: 25rem;
     height: 15rem;
@@ -146,12 +151,24 @@ footer {
     gap: 3rem;
 }
 
+.white-logo {
+    display: none;
+}
+
+.black-logo {
+    display: block;
+}
+
 footer p {
     font-size: 14px;
 }
 
 footer > img {
     width: 5rem;
+}
+
+.footer-text {
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -270,5 +287,36 @@ footer > img {
         display: flex;
         justify-content: space-between;
         gap: 1rem;
+    }
+
+    .sponsors {
+        display: none;
+    }
+
+    footer {
+        background-color: #272a31;
+    }
+
+    .black-logo {
+        display: none;
+    }
+
+    .white-logo {
+        display: block;
+    }
+
+    footer {
+        justify-content: space-evenly;
+        gap: 3rem;
+        padding: 3rem;
+        margin: auto;
+    }
+
+    .footer-text {
+        display: block;
+    }
+
+    footer p {
+        color: #ffffff;
     }
 }
