@@ -50,6 +50,11 @@ header {
 }
 
 .hero-article > h2 {
+    background: url(../assets/images/text-bgg.jpg) repeat;
+    background-clip: text;
+    background-size: 90% 10%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
