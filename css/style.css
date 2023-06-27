@@ -7,13 +7,6 @@
     list-style: none;
 }
 
-.btn {
-    background-color: #ec5242;
-    border: none;
-    padding: 1rem;
-    color: #ffffff;
-}
-
 .header-one,
 .header-two {
     display: none;
@@ -103,6 +96,11 @@ header {
     border-color: #ec5242;
 }
 
+.main-program {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-program > h2,
 .featured-speakers > h2 {
     text-align: center;
@@ -132,6 +130,10 @@ header {
 }
 
 .main-btn {
+    background-color: #ec5242;
+    border: none;
+    padding: 1rem;
+    color: #ffffff;
     width: 15rem;
     font-size: 18px;
     margin: auto;
@@ -317,6 +319,45 @@ header {
     .hero-article > h2 {
         font-size: 45px;
     }
+
+    .main-program {
+        padding-top: 3rem;
+    }
+
+    .main-container {
+        flex-direction: row;
+        max-width: 100vw;
+        gap: 0.2rem;
+        margin: 1rem auto;
+    }
+
+    .main-container > section {
+        display: block;
+        width: 13rem;
+        text-align: center;
+        padding: 1rem 0.5rem;
+    }
+
+    .main-container > section:hover {
+        border: 1px solid #ffffff;
+    }
+    
+    .main-container article,
+    .main-heading {
+        width: auto;
+    }
+    
+    .main-img {
+        width: 3rem;
+    }
+
+    .main-btn {
+        width: auto;
+        padding: 0;
+        margin-bottom: 3rem;
+        background-color: transparent;
+        border-bottom: 1px solid #ffffff;
+    }    
 }
 
 @media (min-width:992px) { 
