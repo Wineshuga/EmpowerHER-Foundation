@@ -67,11 +67,13 @@ header {
 .hero-article > h1,
 .hero-article > h2,
 .main-program h3 {
-  color: #ec5242;
+  color: #F25621;
 }
 
 .hero-article > h1 {
   font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 0.5rem;
 }
 
 .hero-article > h2 {
@@ -80,8 +82,8 @@ header {
   background-size: 90% 10%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 34px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }

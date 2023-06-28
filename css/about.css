@@ -56,10 +56,9 @@ header {
 
 .hero-section {
   position: relative;
-  padding: 5rem 1rem;
+  padding: 7rem 1rem 5rem;
   text-align: center;
   background-color: #f7f7f7;
-  padding-top: 5rem;
 }
 
 .hero-article,
@@ -85,11 +84,13 @@ footer p {
 
 .hero-article > h1 {
   font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 0.5rem;
 }
 
 .hero-article > h2 {
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 34px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -98,6 +99,7 @@ footer p {
   border: 2px solid #e8e8e8;
   background-color: #fff;
   padding: 1rem;
+  line-height: 1.8;
   margin: 2rem 0 1rem;
 }
 
