@@ -15,9 +15,9 @@
 
 .mobile-menu {
   background-color: #272a31;
-  position: absolute;
+  position: fixed;
   top: 0;
-  height: 50vh;
+  height: 100vh;
   padding: 1rem;
   width: 100vw;
 }
