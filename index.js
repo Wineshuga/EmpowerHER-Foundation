@@ -15,7 +15,7 @@ closeIcon.addEventListener('click', () => {
 const featuredSpeakers = [
   {
     name: 'Cynthia Bunmi',
-    img: './assets/images/cynthia.jpg',
+    img: './assets/images/cynthiaa.jpg',
     alt: 'Photo of Cynthia Bunmi',
     position: 'Manager at Premium sites Nig. Ltd',
     details: `Cynthia is an expert in Gender and Development and is well-known
@@ -31,7 +31,7 @@ const featuredSpeakers = [
   },
   {
     name: 'George Maxin',
-    img: './assets/images/georgee.jpg',
+    img: './assets/images/george.jpg',
     alt: 'Photo of George Maxin',
     position: 'Professor in Business Management',
     details: `George is an expert in Gender and Development and is well-known
@@ -39,7 +39,7 @@ const featuredSpeakers = [
   },
   {
     name: 'Olayinka Adeoye',
-    img: './assets/images/adeoyee.jpg',
+    img: './assets/images/adeoye.jpg',
     alt: 'Photo of Olayinka Adeoye',
     position: 'Manager at Premium sites Nig. Ltd',
     details: `Olayinka is an expert in Gender and Development and is well-known
@@ -47,7 +47,7 @@ const featuredSpeakers = [
   },
   {
     name: 'Nwachi Sarah',
-    img: './assets/images/nwachi.jpg',
+    img: './assets/images/nwachii.jpg',
     alt: 'Photo of Nwachi Sarah',
     position: 'Manager at Premium sites Nig. Ltd',
     details: `Sarah is an expert in Gender and Development and is well-known
@@ -55,7 +55,7 @@ const featuredSpeakers = [
   },
   {
     name: 'Tommy Agnes',
-    img: './assets/images/agnes.jpg',
+    img: './assets/images/agness.jpg',
     alt: 'Photo of Tommy Agnes',
     position: 'Manager at Premium sites Nig. Ltd',
     details: `Agnes is an expert in Gender and Development and is well-known
