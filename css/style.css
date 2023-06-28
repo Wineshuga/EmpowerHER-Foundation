@@ -8,8 +8,33 @@
 }
 
 .header-one,
-.header-two {
+.header-two,
+.mobile-menu {
   display: none;
+}
+
+.mobile-menu {
+  background-color: #272a31;
+  position: absolute;
+  top: 0;
+  height: 50vh;
+  padding: 1rem;
+  width: 100vw;
+}
+
+.mobile-menu ul {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.mobile-menu li {
+  border-bottom: 1px solid #ec5242;
+  padding: 0.5rem;
+}
+
+.mobile-menu a {
+  color: #fff;
+  font-size: 24px;
 }
 
 header {
