@@ -26,8 +26,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 EmpowerHer Foundation <a name="about-project"></a>
 
 **EmpowerHer** is a non-profit organization dedicated to empowering women through education, training, and support. This repository is a capstone project completed during my time at Microverse. The Microverse program provided a collaborative and immersive learning environment where I honed my skills and worked on real-world projects such as this one.
@@ -46,8 +44,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Mobile-First Design**
 - **CSS Grid Layout**
