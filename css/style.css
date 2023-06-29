@@ -188,6 +188,7 @@ footer p {
 
 .featured-container {
   display: grid;
+  margin: 0 1rem;
 }
 
 .featured-container > section {
@@ -196,7 +197,10 @@ footer p {
   justify-content: space-between;
   max-width: 37.5rem;
   margin: 0 auto 1rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  background: url('../assets/images/checkered-bg.jpg') no-repeat;
+  background-size: 4.8rem 5.2rem;
+  background-position: 0 15%;
 }
 
 .featured-container > section:nth-child(n+3) {
@@ -208,7 +212,7 @@ footer > img {
 }
 
 .featured-img {
-  width: 20%;
+  width: 22%;
   height: 6rem;
   overflow: hidden;
 }
@@ -266,6 +270,12 @@ footer {
 
 .footer-text {
   display: none;
+}
+
+@media (min-width: 500px) {
+  .featured-container > section {
+    background-position: 0 1%;
+  }
 }
 
 @media (min-width: 600px) {
