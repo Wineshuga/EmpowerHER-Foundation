@@ -336,9 +336,12 @@ footer {
     width: 100%;
   }
 
+  .past-photo {
+    height: 18rem;
+  }
+
   .past-photo > img {
     object-fit: cover;
-    height: 20rem;
   }
 
   .sponsors {
