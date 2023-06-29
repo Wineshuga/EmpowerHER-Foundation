@@ -189,6 +189,7 @@ footer p {
 .featured-container {
   display: grid;
   margin: 0 1rem;
+  padding-left: 1rem;
 }
 
 .featured-container > section {
@@ -199,7 +200,7 @@ footer p {
   margin: 0 auto 1rem;
   padding: 0.5rem 1rem;
   background: url('../assets/images/checkered-bg.jpg') no-repeat;
-  background-size: 4.8rem 5.2rem;
+  background-size: 4rem;
   background-position: 0 15%;
 }
 
@@ -212,7 +213,7 @@ footer > img {
 }
 
 .featured-img {
-  width: 22%;
+  width: 20%;
   height: 6rem;
   overflow: hidden;
 }
