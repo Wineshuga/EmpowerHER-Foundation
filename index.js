@@ -84,10 +84,10 @@ featureBox.insertAdjacentHTML('afterbegin', featuredSection);
 const moreFeature = document.querySelectorAll('.featured-container > section:nth-child(n+3)');
 moreBtn.addEventListener('click', () => {
   moreFeature.forEach((item) => {
-    if (item.style.display === 'none') {
-      item.style.display = 'flex';
-    } else {
+    if (item.style.display === 'flex') {
       item.style.display = 'none';
+    } else {
+      item.style.display = 'flex';
     }
   });
 });
