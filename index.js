@@ -84,10 +84,13 @@ featureBox.insertAdjacentHTML('afterbegin', featuredSection);
 const moreFeature = document.querySelectorAll('.featured-container > section:nth-child(n+3)');
 moreBtn.addEventListener('click', () => {
   moreFeature.forEach((item) => {
-    if (item.style.display === 'none') {
-      item.style.display = 'flex';
-    } else {
+    if (item.style.display === 'flex') {
       item.style.display = 'none';
+      moreBtn.innerHTML = `MORE <i class="fa-solid fa-chevron-down"
+      style="color: #ec5242; margin-left: 0.5rem;"></i>`;
+    } else {
+      item.style.display = 'flex';
+      moreBtn.innerHTML = 'LESS <i class="fa-solid fa-chevron-up" style="color: #ec5242; margin-left: 0.5rem;"></i>';
     }
   });
 });
